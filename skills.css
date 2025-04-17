@@ -1,0 +1,90 @@
+.skill{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+    color: #8d5204;
+}
+
+.skills>*{
+    border-radius: 4%;
+    font-size: 0.5rem;
+    text-align: center;
+    background-color: #e9caa2;
+    padding: 5%;
+    border-style: solid;
+    
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    width: 90%; /* or 100% */
+    margin: 0 auto; /* center */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-color: #8d5204;
+    box-sizing: border-box;
+  }
+
+
+
+  @media (max-width:380px){
+    .skills{
+        margin-left: 100px;
+    }
+    .skill{
+        margin-left: 140px;
+    }
+  }
+
+
+  @media (max-width:700px) and (max-height:1010px){
+    .skills{
+       
+        margin-right: 25px;
+    }
+    .skill{
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+}
+    @media (max-width:500px) and (max-height:1010px){
+
+    .skills{
+         margin-right:-80px;
+    }
+    .skill{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+  }
+
+  @media (max-width:400px) and (max-height:1010px){
+
+    .skills{
+         margin-right:0px;
+    }
+    .skill{
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+  }
+  @media (max-width:370px) and (max-height:1010px){
+
+    .skills{
+         margin-left:120px;
+    }
+    .skill{
+        width: 300px;
+        margin-left: 110px;
+        margin-top: 100px;
+    }
+
+  }
+  

@@ -1,0 +1,162 @@
+.Educc{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    color: #8d5204;
+}
+
+.Education{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.school img{
+    height: 200px;
+    width: 100%;
+    border-radius: 7%;
+}
+.school{
+
+    background-color: #FAF8F3;
+    height: 400px;
+    width: 300px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #8d5204;
+    border-radius: 6%;
+
+    margin: 3%;
+    
+}
+
+.school h1{
+    font-size: 1rem;
+    margin-left: 40px;
+}
+.school h2{
+    font-size: 1rem;
+    margin-left: -35px;
+    margin-top: 10px;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+}
+
+@media (max-width:1100px){
+    .school h2{
+        font-size: 0.7rem;
+    }
+    .Educ{
+        margin-left: 390px;
+    }
+
+}
+@media (max-width:925px){
+    .Education{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: scale(1.1);
+        
+    }
+    .school{
+        height: 400px;
+    }
+    .Educ{
+        margin-left:350px;
+
+    }
+
+}
+
+@media (max-width:835px){
+    .Educ{
+        margin-left: 310px;
+    }
+}
+
+@media (max-width:780px){
+    .Educ{
+        margin-left: 310px;
+    }
+}
+
+@media (max-width:670px){
+    .Educ{
+        margin-left: 220px;
+    }
+}
+@media (max-width:570px){
+    .Educ{
+        margin-left: 180px;
+    }
+}
+
+@media (max-width:500px){
+    .Educ{
+        margin-left: 140px;
+    }
+}
+
+@media (max-width: 428px){
+    .paragraph{
+        margin-left: 0px;
+
+    }
+    
+  }
+  
+@media (max-width:400px){
+    .Educ{
+        margin-left: 140px;
+    }
+    .Education{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:380px){
+    .Educc{
+        font-size: 30px;
+        margin-left: 160px;
+        
+
+    }
+    .Education{
+        margin-left: 160px;
+    }
+}
+
+@media (max-width:300px){
+    .Educc{
+        font-size: 30px;
+        margin-left: 160px;
+        
+
+    }
+    .Education{
+        margin-left: 160px;
+    }
+}
+@media (min-width:1600px){
+    .Educ{
+        margin-left: 700px;
+    }
+
+}
+@media (min-width:1800px){
+    .Educ{
+        margin-left: 850px;
+    }
+
+}
+
+@media (min-width:2000px){
+    .Educ{
+        margin-left: 900px;
+    }
+
+}
